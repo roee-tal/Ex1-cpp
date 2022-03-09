@@ -27,7 +27,7 @@ TEST_CASE("good input")
 
     CHECK(nospaces(ariel::mat(1, 1, '!', '*')) == nospaces("!"));
 
-    CHECK(nospaces(ariel::mat(7, 1, '@', '-')) == nospaces("@@@@@@@@@"));
+    CHECK(nospaces(ariel::mat(7, 1, '@', '-')) == nospaces("@@@@@@@"));
 
     CHECK(nospaces(ariel::mat(1, 7, '^', '(')) == nospaces("^\n^\n^\n^\n^\n^\n^\n"));\
 
